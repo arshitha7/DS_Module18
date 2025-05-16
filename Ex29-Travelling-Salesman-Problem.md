@@ -65,16 +65,10 @@ for(i=0;i < n;i++)
 if((a[c][i]!=0)&&(visited[i]==0)) 
 if(a[c][i] < min) 
 { 
- 
- 
- 
- 
- 
- 
- 
- 
-} 
- 
+ min=a[i][0]+a[c][i]; 
+kmin=a[c][i]; 
+nc=i;
+}
  
 } 
 } 
